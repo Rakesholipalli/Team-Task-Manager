@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "serve dist -l $PORT"
+    "start": "node server.js"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.28.4",
@@ -19,7 +19,8 @@
     "react-hot-toast": "^2.4.1",
     "react-router-dom": "^6.22.3",
     "recharts": "^2.12.3",
-    "serve": "^14.2.6"
+    "serve": "^14.2.6",
+    "serve-handler": "^6.1.7"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

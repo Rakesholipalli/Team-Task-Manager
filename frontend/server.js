@@ -1,5 +1,5 @@
-const handler = require('serve-handler');
-const http = require('http');
+import handler from 'serve-handler';
+import http from 'http';
 
 const PORT = process.env.PORT || 3000;
 
